@@ -71,7 +71,7 @@ public class Steps {
 	@Dado("preencher os campos obrigatorios")
 	public void preencher_os_campos_obrigatorios() {
 		metodos.pausa(2000);
-	    metodos.escrever(elementos.getUsernameregister(), "testadoraut1","Digitar Usuario");
+	    metodos.escrever(elementos.getUsernameregister(), "tester01","Digitar Usuario");
 	    metodos.escrever(elementos.getEmailregister(), "test@test.com", "Digitar e-mail");
 	    metodos.escrever(elementos.getPasswordregister(), "Ab123", "Digita senha");
 	    metodos.escrever(elementos.getPasswordconfirm(), "Ab123", "Confirma Senha");
@@ -86,7 +86,7 @@ public class Steps {
 	@Então("Valido o usuario logado")
 	public void valido_o_usuario_logado() throws Exception {
 		metodos.pausa(2000);
-	    metodos.validarTexto(elementos.getUserLoged(),"testadoraut1", "Validar usuario logado");
+	    metodos.validarTexto(elementos.getUserLoged(),"tester01", "Validar usuario logado");
 	    Metodos.screenShot("castrado-sucesso");
 	    metodos.fecharNavegador();
 	}
@@ -94,7 +94,7 @@ public class Steps {
 	@Dado("preencher dados ja cadastrados")
 	public void preencher_dados_ja_cadastrados() {
 		metodos.pausa(2000);
-	    metodos.escrever(elementos.getUsernameregister(), "testadoraut1","Digitar Usuario");
+	    metodos.escrever(elementos.getUsernameregister(), "tester01","Digitar Usuario");
 	    metodos.escrever(elementos.getEmailregister(), "test@test.com", "Digitar e-mail");
 	    metodos.escrever(elementos.getPasswordregister(), "Ab123", "Digita senha");
 	    metodos.escrever(elementos.getPasswordconfirm(), "Ab123", "Confirma Senha");  
