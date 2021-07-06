@@ -1,4 +1,6 @@
 # Advantage-Shopping
+--------------------------
 
 **Projeto criado na IDE Eclipse**
-Executar tester pela classe Executa na package runner
+
+<p>Executar tester pela classe Executa na package runner</p>
