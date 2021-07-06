@@ -3,4 +3,4 @@
 
 **Projeto criado na IDE Eclipse**
 
-<p>Executar tester pela classe Executa na package runner</p>
+<p>Executar teste com JUnit pela classe Executa na package runner</p>
